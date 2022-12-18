@@ -1,0 +1,22 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+html{
+  overflow-x: hidden; // Correction for bootstrap 5 for small devices
+  body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
