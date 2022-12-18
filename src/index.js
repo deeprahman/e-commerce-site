@@ -1,5 +1,6 @@
 // Test import of a JavaScript module
-import {bootstrap} from 'bootstrap';
+import 'jquery';
+import 'jquery-ui';
 import {MyClass} from '@/js/app';
 
 

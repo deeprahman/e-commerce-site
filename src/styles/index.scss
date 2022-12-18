@@ -1,6 +1,19 @@
 
 @import 'fonts';
-@import 'variables';
 @import 'scaffolding';
-@import "bootstrap/scss/bootstrap.scss";
-@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+// Include Page sections
+@import 'sections/header';
+@import 'sections/featured';
+
+
+
+@import 'variables';
+
+// // 4. Include any optional Bootstrap components as you like
+// @import "bootstrap/scss/bootstrap-utilities";
+@import "bootstrap/scss/bootstrap-grid";
+
+@import 'bootstrap-icons/font/bootstrap-icons';
+// 5. Add additional custom code here
+$theme-colors: map-merge($theme-colors, $custom-colors);

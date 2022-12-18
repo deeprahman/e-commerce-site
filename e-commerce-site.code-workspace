@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"name": "Root",
+			"path": "."
+		},
+		{
+			"name": "SRC",
+			"path": "./src/"
+		},
+		{
+			"name": "ASSETS",
+			"path": "./public/"
+		},
+	
+		{
+			"name":"Bootstrap",
+			"path": "./node_modules/bootstrap/"
+		},
+		{
+			"name":"ICONS",
+			"path": "./node_modules/bootstrap-icons/"
+		},
+		{
+			"name":"JQ-UI",
+			"path": "./node_modules/jquery-ui/"
+		},
+
+	],
+	"settings": {}
+}

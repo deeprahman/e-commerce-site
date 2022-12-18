@@ -11,10 +11,28 @@
   </title>
 </head>
 
-<body>
-  <%= require('html-loader!views/header.html').default %>
-  <%= require('html-loader!./views/sections/_banner.html').default %>
-  <%= require('html-loader!views/footer.html').default %>
+<body id="home-page">
+  <header>
+
+    <!-- Navigation for the small devises -->
+    <%= require('html-loader!views/sections/header/_nav-small.html').default %>
+      <!-- Navigation for the large devices -->
+      <%= require('html-loader!views/sections/header/_nav-large.html').default %>
+        <!-- The banner for the Home -->
+        <section id="hero" class="hero-bg d-none d-md-none d-lg-block">
+          <%= require('html-loader!./views/sections/_banner.html').default %>
+        </section>
+  </header>
+  <!-- The main section -->
+  <main>
+    <div class="featured mt-2">
+      <%= require('html-loader!./views/sections/_featured.html').default %>
+    </div>
+  </main>
+<!-- The footer section  -->
+  <footer>
+    <%= require('html-loader!views/footer.html').default %>
+  </footer>
 </body>
 
 </html>
